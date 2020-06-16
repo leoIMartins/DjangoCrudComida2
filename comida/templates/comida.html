@@ -15,11 +15,7 @@
     <tbody>
     {% for comida in comidas %}
     <tr>
-        <td>
-            <a href="{% url 'update_comida' comida.id %}">
-                {{ comida.tipoComida }}
-            </a>
-        </td>
+        <td><a href="{% url 'update_comida' comida.id %}">{{ comida.tipo }}</a></td>
         <td>{{ comida.descricao }}</td>
         <td>{{ comida.quantidade }}</td>
         <td>{{ comida.opcoes }}</td>
