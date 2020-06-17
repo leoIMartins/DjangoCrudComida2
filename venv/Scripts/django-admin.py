@@ -1,4 +1,4 @@
-#!c:\python\aulapython\crudcomida\venv\scripts\python.exe
+#!C:\Python\Django\Atividade 2\DjangoCrudComida2\venv\Scripts\python.exe
 from django.core import management
 
 if __name__ == "__main__":
